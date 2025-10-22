@@ -1,4 +1,38 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap');
+
+
+
+
 body{
 
     background-color: green;
+}
+
+header{
+    text-align: center;
+    color: white;
+    background-color: rgba(77, 33, 33, 0.877);
+    padding: 20px;
+}
+    
+html, body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    border: 20px solid green;
+}
+
+header h1{
+    .oxanium-<uniquifier> 
+          font-family: "Oxanium", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
