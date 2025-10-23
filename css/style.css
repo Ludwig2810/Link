@@ -9,17 +9,35 @@ body{
     background-color: green;
 }
 
-header{
+header, h2{
+    font-family: Oxanium, sans-serif;
     text-align: center;
     color: white;
     background-color: rgba(77, 33, 33, 0.877);
-    padding: 20px;
+    padding: 15px;
+}
+
+p, ol, ul, li{
+    color: rgba(77, 33, 33, 0.877);
+    font-size: 30px;
+    line-height: 30px;
 }
     
 html, body {
     margin: 0;
     padding: 0;
 
+}
+
+p.caption{
+    font-size: 22px;
+    font-style: oblique;
+    color: rgb(176, 173, 173);
+    margin-top: 0;
+}
+
+a:hover{
+    color: blue;
 }
 
 header img{
@@ -29,10 +47,15 @@ header img{
     border: 20px solid green;
 }
 
-header h1{
-    .oxanium-<uniquifier> 
-          font-family: "Oxanium", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
+
+main{
+    width: 800px; 
+    margin: 0 auto;
+
+}
+
+main img{
+
+max-width: 100%;
+
 }
